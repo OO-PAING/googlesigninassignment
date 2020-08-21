@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form Registration</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h3 color="blue"> School Registration</h3>
+        <br><hr>
+        <h1>Institution Name</h1>
+        <br>
+        <h4>Additional documents for Registration</h4>
+        <p>Bring this registration form and the following documentation to the school office.</p>
+        <ul>
+            <li>Original Certified Birth Certificate</li>
+            <li>Original Social Security Card</li>
+            <li>Current Immunization Form</li>
+            <li>Current Proofs of Residence (ex. power, water or gas bill)</li>
+            <li>Other</li>
+        </ul>
+        <br><br>
+        <h3 style="text-decoration-line: underline;">Student Information</h3>
+        <form>
+            Name:<br><br><br>
+            <input type="text" name="firstname" value="" placeholder="First Name"/>
+            <input type="text" name="lastname" value="" placeholder="Last Name"/><br><br><br>
+            M.I<br><br>
+            <input type="text" name="text" value=""/><br><br><br>
+            Birth Date:<br><br><input type="day" list="day"/>
+            <datalist id="day">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </datalist>
+            <input type="month" list="months"/>
+            <datalist id="months">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </datalist>
+            <input type="datetime" list="years"/>
+            <datalist id="years">
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+            </datalist><br>
+            <br><br>
+            Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ethnicity<br><br>
+            <select name="Gender" size="1" >
+                <option value="1">Please Select</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>&nbsp;&nbsp;&nbsp;
+            <select name="city" size="1">
+                <option value="0">Please Select</option>
+                <option value="1">African American</option>
+                <option value="2">Hispanic/Latino</option>
+                <option value="3">Asian</option>
+                <option value="4">Prefer not to answer</option>
+            </select>
+            <br><br><br>
+            E mail Address:<br><br>
+            <input type="text" name="email" placeholder="fill your email" size="25em"/><br><br>
+            <br>
+            Entry Year&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Grade<br><br>
+            <input type="text" name="text" size="25em"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="text" size="25em"/>
+            <br><br>
+            <br>Semester<br><br>
+            <input type="text" name="semester" size="25em"/><br> 
+            <br>Have you previously applied to or attended this school?<br><br>
+            <input type="radio" name="choose" value="Yes">Yes&nbsp;&nbsp;<br>
+            <input type="radio" name="choose" value="No"/>No<br><br><br>
+            <h3 style="text-decoration-line: underline;">Current Residence Information</h3><br>
+            <h4>Address</h4>
+            <input type="text" name="address" size="45em"/><br>
+            <p style="font-weight: bold;">Street Address</p>
+            <input type="text" name="address" size="45em"/><br>
+            Street Address Line 2<br><br>
+            <input type="text" name="address" size="19em"/>&nbsp; <input type="text" name="address" size="19em"/><br>
+            City&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;State / Province
+            <br><br>
+            <input type="text" name="address" size="45em"/><br>
+            Postal / Zip Code<br><br><br><br>
+            Home Phone Number<br><br><input type="text" name="address" size="8em"/>&nbsp;&nbsp;<input type="text" name="address" size="30em"/><br>
+            Area Code &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone Number
+            <h3 style="text-decoration-line: underline;">Primary Residence Information <i>(if different from above)</i></h3><br>
+            <h4>Address</h4>
+            <input type="text" name="address" size="45em"/><br>
+            <p style="font-weight: bold;">Street Address</p>
+            <input type="text" name="address" size="45em"/><br>
+            Street Address Line 2<br><br>
+            <input type="text" name="address" size="19em"/>&nbsp; <input type="text" name="address" size="19em"/><br>
+            City&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;State / Province
+            <br><br>
+            <input type="text" name="address" size="45em"/><br>
+            Postal / Zip Code<br><br><br><br>
+            <h3 style="text-decoration-line: underline;">Parent/Guardian Residence Information <i>(if different from above)</i></h3><br>
+            <h4>Address</h4>
+            <input type="text" name="address" size="45em"/><br>
+            <p style="font-weight: bold;">Street Address</p>
+            <input type="text" name="address" size="45em"/><br>
+            Street Address Line 2<br><br>
+            <input type="text" name="address" size="19em"/>&nbsp; <input type="text" name="address" size="19em"/><br>
+            City&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;State / Province
+            <br><br>
+            <input type="text" name="address" size="45em"/><br>
+            Postal / Zip Code<br><br><br><br>
+            <hr>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="submit" name="Next" value="Next" style="background-color: blue; color: white; font-weight: bold;"/> 
+    </body>
+</html>
